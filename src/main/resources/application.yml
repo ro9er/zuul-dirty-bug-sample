@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: license
+
+server:
+  port: 8080
+
+ribbon:
+  eureka:
+    enabled: false
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
